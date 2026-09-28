@@ -38,6 +38,62 @@ a:hover{
 
 }
 
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 16px;
+    }
+    ul{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    li{
+        width: auto;
+    }
+    a:hover{
+        font-size: inherit;
+    }
+    .section1{
+        padding: 16px;
+    }
+    .intro{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    .banner{
+        width: 100%;
+        height: auto;
+        padding-top: 24px;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .why{
+        width: 100%;
+    }
+    .info{
+        padding-left: 0;
+        font-size: 32px;
+        text-align: center;
+    }
+    .info1{
+        padding-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+    .footer{
+        padding-top: 32px;
+        font-size: 28px;
+    }
+    .one{
+        padding-left: 0;
+    }
+}
+
 
 /* Section1 */
 
