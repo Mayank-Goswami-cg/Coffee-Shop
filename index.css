@@ -10,7 +10,6 @@ body{
 
 nav{
     display: flex;
-    gap: 250px;
     padding: 20px;
     background-color: #471605;
 }
